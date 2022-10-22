@@ -17,6 +17,7 @@ var todos = []todo{
 	{ID: "1", Item: "Clean Room", Complete: false},
 	{ID: "2", Item: "Read Book", Complete: false},
 	{ID: "3", Item: "Record Video", Complete: false},
+	{ID: "4", Item: "Test", Complete: true},
 }
 
 func addTodo(context *gin.Context) {
